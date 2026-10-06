@@ -1,0 +1,18 @@
+{
+  "name": "windguru-enhanced",
+  "version": "1.0.0",
+  "description": "An enhanced version of Windguru.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/main.js --bundle --format=iife --outfile=dist/script.js",
+    "dev": "esbuild src/main.js --bundle --format=iife --outfile=dist/script.js --watch"
+  },
+  "keywords": [],
+  "author": "Ethan.M",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
